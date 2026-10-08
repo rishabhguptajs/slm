@@ -1,0 +1,15 @@
+== D_gdn_sweep_lr0.004 layers=DDDDDDDDDDDD params=13.81M (non-emb 9.61M) lr=0.004 steps=1500 tokens=12M
+step     50 loss 8.8785 gnorm 1.14 lr 1.33e-03 7,490 tok/s 0.9min
+step    100 loss 7.6658 gnorm 3.63 lr 2.65e-03 7,498 tok/s 1.8min
+step    150 loss 7.2942 gnorm 0.82 lr 3.97e-03 7,415 tok/s 2.7min
+step    200 loss 6.8464 gnorm 0.62 lr 3.99e-03 7,221 tok/s 3.7min
+step    250 loss 6.4815 gnorm 0.40 lr 3.95e-03 6,272 tok/s 4.8min
+step    300 loss 6.1579 gnorm 0.34 lr 3.89e-03 6,282 tok/s 5.9min
+step    350 loss 5.9239 gnorm 0.45 lr 3.81e-03 6,571 tok/s 6.9min
+step    400 loss 5.8093 gnorm 0.34 lr 3.71e-03 6,722 tok/s 7.9min
+step    450 loss 5.6874 gnorm 0.35 lr 3.58e-03 6,956 tok/s 8.9min
+step    500 loss 5.5929 gnorm 0.31 lr 3.44e-03 7,260 tok/s 9.8min
+step    550 loss 5.5101 gnorm 0.33 lr 3.28e-03 7,228 tok/s 10.8min
+step    600 loss 5.4437 gnorm 0.32 lr 3.10e-03 7,205 tok/s 11.7min
+step    650 loss 5.3249 gnorm 0.35 lr 2.92e-03 7,291 tok/s 12.7min
+step    700 loss 5.2990 gnorm 0.46 lr 2.72e-03 7,702 tok/s 13.6min

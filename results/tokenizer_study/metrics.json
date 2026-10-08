@@ -1,0 +1,443 @@
+{
+ "bytes": {
+  "vocab_size": 266,
+  "en": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.0040285763021382,
+   "tokens_per_word": 6.155731906124081
+  },
+  "de": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.0153866580717874,
+   "tokens_per_word": 7.236403955475618
+  },
+  "fr": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.0396428760322693,
+   "tokens_per_word": 6.378916490620784
+  },
+  "es": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.0221608317948834,
+   "tokens_per_word": 6.17254930993849
+  },
+  "ru": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.7966451456544248,
+   "tokens_per_word": 12.579071479369674
+  },
+  "zh": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 2.622690684076667,
+   "tokens_per_word": null
+  },
+  "ja": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 2.7238188341906113,
+   "tokens_per_word": null
+  },
+  "ar": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.7779437178639244,
+   "tokens_per_word": 10.517100668882252
+  },
+  "hi": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 2.5357515703795452,
+   "tokens_per_word": 12.82775376588834
+  },
+  "sw": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.0087158248831403,
+   "tokens_per_word": 6.576482440618421
+  },
+  "tr": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.085307527460133,
+   "tokens_per_word": 8.20580879519159
+  },
+  "tool": {
+   "bytes_per_token": 1.0,
+   "tokens_per_char": 1.0000860096920092,
+   "tokens_per_word": 7.291974166545399
+  }
+ },
+ "bpe8k": {
+  "vocab_size": 8192,
+  "en": {
+   "bytes_per_token": 3.061546369357765,
+   "tokens_per_char": 0.32794818538474657,
+   "tokens_per_word": 2.01066100704377
+  },
+  "de": {
+   "bytes_per_token": 2.7057068006265865,
+   "tokens_per_char": 0.37527593818984545,
+   "tokens_per_word": 2.6744967170130236
+  },
+  "fr": {
+   "bytes_per_token": 2.8504061711861564,
+   "tokens_per_char": 0.3647349933990764,
+   "tokens_per_word": 2.2378973758558374
+  },
+  "es": {
+   "bytes_per_token": 2.8933122032192577,
+   "tokens_per_char": 0.3532839735226538,
+   "tokens_per_word": 2.133385157353767
+  },
+  "ru": {
+   "bytes_per_token": 3.770310951552888,
+   "tokens_per_char": 0.4765243951336257,
+   "tokens_per_word": 3.33634855082409
+  },
+  "zh": {
+   "bytes_per_token": 2.467238912732475,
+   "tokens_per_char": 1.0630063714308189,
+   "tokens_per_word": null
+  },
+  "ja": {
+   "bytes_per_token": 3.2233626388175254,
+   "tokens_per_char": 0.8450240135530735,
+   "tokens_per_word": null
+  },
+  "ar": {
+   "bytes_per_token": 3.673636724317811,
+   "tokens_per_char": 0.4839737435372263,
+   "tokens_per_word": 2.86285810441294
+  },
+  "hi": {
+   "bytes_per_token": 3.6116187472548047,
+   "tokens_per_char": 0.7021094273328193,
+   "tokens_per_word": 3.5518017442009158
+  },
+  "sw": {
+   "bytes_per_token": 2.7845615378305215,
+   "tokens_per_char": 0.3622530194355268,
+   "tokens_per_word": 2.361765883522984
+  },
+  "tr": {
+   "bytes_per_token": 2.793793883220034,
+   "tokens_per_char": 0.3884708653629249,
+   "tokens_per_word": 2.937156117520684
+  },
+  "tool": {
+   "bytes_per_token": 3.406893771873877,
+   "tokens_per_char": 0.2935477524859652,
+   "tokens_per_word": 2.1403585361966337
+  }
+ },
+ "mbpe8k": {
+  "vocab_size": 8192,
+  "en": {
+   "bytes_per_token": 3.0718188795088257,
+   "tokens_per_char": 0.32685148951968135,
+   "tokens_per_word": 2.0039371289717325
+  },
+  "de": {
+   "bytes_per_token": 2.7140852358466288,
+   "tokens_per_char": 0.37411745388867607,
+   "tokens_per_word": 2.666240492339697
+  },
+  "fr": {
+   "bytes_per_token": 2.857987946380208,
+   "tokens_per_char": 0.3637674110379058,
+   "tokens_per_word": 2.2319605996589376
+  },
+  "es": {
+   "bytes_per_token": 2.905200375168056,
+   "tokens_per_char": 0.3518383243137764,
+   "tokens_per_word": 2.124655277721224
+  },
+  "ru": {
+   "bytes_per_token": 3.754515324172346,
+   "tokens_per_char": 0.4785291816728652,
+   "tokens_per_word": 3.350384908108648
+  },
+  "zh": {
+   "bytes_per_token": 2.455067128095624,
+   "tokens_per_char": 1.0682765672933219,
+   "tokens_per_word": null
+  },
+  "ja": {
+   "bytes_per_token": 3.2104593919148026,
+   "tokens_per_char": 0.8484202731391827,
+   "tokens_per_word": null
+  },
+  "ar": {
+   "bytes_per_token": 3.6767433138957726,
+   "tokens_per_char": 0.48356481975350785,
+   "tokens_per_word": 2.860439190610408
+  },
+  "hi": {
+   "bytes_per_token": 5.152660424168023,
+   "tokens_per_char": 0.49212472036501054,
+   "tokens_per_word": 2.489539909465231
+  },
+  "sw": {
+   "bytes_per_token": 2.780759673411431,
+   "tokens_per_char": 0.36274829303952383,
+   "tokens_per_word": 2.3649948981568785
+  },
+  "tr": {
+   "bytes_per_token": 2.8008312458892513,
+   "tokens_per_char": 0.38749479428759825,
+   "tokens_per_word": 2.929776225267111
+  },
+  "tool": {
+   "bytes_per_token": 3.4183649437282453,
+   "tokens_per_char": 0.29256268015704134,
+   "tokens_per_word": 2.133176031986917
+  }
+ },
+ "bpe16k": {
+  "vocab_size": 16384,
+  "en": {
+   "bytes_per_token": 3.444229127657231,
+   "tokens_per_char": 0.29151039001434836,
+   "tokens_per_word": 1.7872596967180339
+  },
+  "de": {
+   "bytes_per_token": 3.0704620335606467,
+   "tokens_per_char": 0.33069507030976025,
+   "tokens_per_word": 2.3567801446103394
+  },
+  "fr": {
+   "bytes_per_token": 3.1692115579160345,
+   "tokens_per_char": 0.3280446436071636,
+   "tokens_per_word": 2.012777113186897
+  },
+  "es": {
+   "bytes_per_token": 3.2438154524527447,
+   "tokens_per_char": 0.31511066112654385,
+   "tokens_per_word": 1.9028669788446946
+  },
+  "ru": {
+   "bytes_per_token": 4.343274644701868,
+   "tokens_per_char": 0.4136614173929934,
+   "tokens_per_word": 2.8962182934284892
+  },
+  "zh": {
+   "bytes_per_token": 2.864054013039407,
+   "tokens_per_char": 0.9157266839717874,
+   "tokens_per_word": null
+  },
+  "ja": {
+   "bytes_per_token": 3.702555616708186,
+   "tokens_per_char": 0.735659127414341,
+   "tokens_per_word": null
+  },
+  "ar": {
+   "bytes_per_token": 4.18986647002384,
+   "tokens_per_char": 0.42434376622360664,
+   "tokens_per_word": 2.510127886921038
+  },
+  "hi": {
+   "bytes_per_token": 3.7320624716325512,
+   "tokens_per_char": 0.6794504619506831,
+   "tokens_per_word": 3.4371755198076777
+  },
+  "sw": {
+   "bytes_per_token": 3.171644185039726,
+   "tokens_per_char": 0.31804192590112557,
+   "tokens_per_word": 2.0735246632137736
+  },
+  "tr": {
+   "bytes_per_token": 3.167496478706063,
+   "tokens_per_char": 0.34263890575925315,
+   "tokens_per_word": 2.5906291768140184
+  },
+  "tool": {
+   "bytes_per_token": 3.777626404317913,
+   "tokens_per_char": 0.2647392575795447,
+   "tokens_per_word": 1.9303058021329231
+  }
+ },
+ "mbpe16k": {
+  "vocab_size": 16384,
+  "en": {
+   "bytes_per_token": 3.4592554949423713,
+   "tokens_per_char": 0.290244122693477,
+   "tokens_per_word": 1.7794961705268986
+  },
+  "de": {
+   "bytes_per_token": 3.0783590115475143,
+   "tokens_per_char": 0.3298467314120535,
+   "tokens_per_word": 2.350734247802313
+  },
+  "fr": {
+   "bytes_per_token": 3.1790808592684674,
+   "tokens_per_char": 0.3270262450233806,
+   "tokens_per_word": 2.0065285448853367
+  },
+  "es": {
+   "bytes_per_token": 3.249272519421133,
+   "tokens_per_char": 0.3145814411334707,
+   "tokens_per_word": 1.8996711642512971
+  },
+  "ru": {
+   "bytes_per_token": 4.336064339935058,
+   "tokens_per_char": 0.41434928193001247,
+   "tokens_per_word": 2.9010343235723464
+  },
+  "zh": {
+   "bytes_per_token": 2.8532862477072856,
+   "tokens_per_char": 0.9191824641443143,
+   "tokens_per_word": null
+  },
+  "ja": {
+   "bytes_per_token": 3.6843590113136844,
+   "tokens_per_char": 0.7392924592382256,
+   "tokens_per_word": null
+  },
+  "ar": {
+   "bytes_per_token": 4.2031447677570934,
+   "tokens_per_char": 0.42300320738480796,
+   "tokens_per_word": 2.5021980564553448
+  },
+  "hi": {
+   "bytes_per_token": 5.941670516602106,
+   "tokens_per_char": 0.426774181317223,
+   "tokens_per_word": 2.1589473415002174
+  },
+  "sw": {
+   "bytes_per_token": 3.1744817481841703,
+   "tokens_per_char": 0.31775763885243125,
+   "tokens_per_word": 2.0716712088139184
+  },
+  "tr": {
+   "bytes_per_token": 3.168750197903803,
+   "tokens_per_char": 0.34250334033212443,
+   "tokens_per_word": 2.5896041917788
+  },
+  "tool": {
+   "bytes_per_token": 3.799401727300299,
+   "tokens_per_char": 0.26322197058183416,
+   "tokens_per_word": 1.919242736073287
+  }
+ },
+ "bpe32k": {
+  "vocab_size": 32768,
+  "en": {
+   "bytes_per_token": 3.782799357338626,
+   "tokens_per_char": 0.26541946359230606,
+   "tokens_per_word": 1.6272953769493401
+  },
+  "de": {
+   "bytes_per_token": 3.4655765265881637,
+   "tokens_per_char": 0.2929921328476416,
+   "tokens_per_word": 2.088080843102838
+  },
+  "fr": {
+   "bytes_per_token": 3.5061362674566228,
+   "tokens_per_char": 0.296520955469433,
+   "tokens_per_word": 1.8193578355264832
+  },
+  "es": {
+   "bytes_per_token": 3.6486136588247735,
+   "tokens_per_char": 0.28015047011694943,
+   "tokens_per_word": 1.6917519603669635
+  },
+  "ru": {
+   "bytes_per_token": 4.9567111272805935,
+   "tokens_per_char": 0.36246718832697444,
+   "tokens_per_word": 2.5377858738100287
+  },
+  "zh": {
+   "bytes_per_token": 3.2593379451470055,
+   "tokens_per_char": 0.8046697606124964,
+   "tokens_per_word": null
+  },
+  "ja": {
+   "bytes_per_token": 4.239896340831346,
+   "tokens_per_char": 0.6424258083763749,
+   "tokens_per_word": null
+  },
+  "ar": {
+   "bytes_per_token": 4.742476121823752,
+   "tokens_per_char": 0.3748977690540704,
+   "tokens_per_word": 2.2176391401287283
+  },
+  "hi": {
+   "bytes_per_token": 3.8226097162258457,
+   "tokens_per_char": 0.6633561254281417,
+   "tokens_per_word": 3.3557581647528196
+  },
+  "sw": {
+   "bytes_per_token": 3.5644999824985124,
+   "tokens_per_char": 0.2829894318518379,
+   "tokens_per_word": 1.844994381514537
+  },
+  "tr": {
+   "bytes_per_token": 3.622225117908735,
+   "tokens_per_char": 0.29962453799302435,
+   "tokens_per_word": 2.2654055250793337
+  },
+  "tool": {
+   "bytes_per_token": 4.063411064644803,
+   "tokens_per_char": 0.2461198224303773,
+   "tokens_per_word": 1.7945450387709707
+  }
+ },
+ "mbpe32k": {
+  "vocab_size": 32768,
+  "en": {
+   "bytes_per_token": 3.8047627738613983,
+   "tokens_per_char": 0.26388730020167966,
+   "tokens_per_word": 1.617901633293347
+  },
+  "de": {
+   "bytes_per_token": 3.476436029746021,
+   "tokens_per_char": 0.29207689984330565,
+   "tokens_per_word": 2.0815582089121
+  },
+  "fr": {
+   "bytes_per_token": 3.516812544947466,
+   "tokens_per_char": 0.29562078238315637,
+   "tokens_per_word": 1.8138346611010716
+  },
+  "es": {
+   "bytes_per_token": 3.658874642520169,
+   "tokens_per_char": 0.27936481340908603,
+   "tokens_per_word": 1.687007594686804
+  },
+  "ru": {
+   "bytes_per_token": 4.957076691611025,
+   "tokens_per_char": 0.36244045783978457,
+   "tokens_per_word": 2.537598722379568
+  },
+  "zh": {
+   "bytes_per_token": 3.2497124775017707,
+   "tokens_per_char": 0.8070531476965835,
+   "tokens_per_word": null
+  },
+  "ja": {
+   "bytes_per_token": 4.2225282552948995,
+   "tokens_per_char": 0.6450682315210182,
+   "tokens_per_word": null
+  },
+  "ar": {
+   "bytes_per_token": 4.768709883549036,
+   "tokens_per_char": 0.372835370840534,
+   "tokens_per_word": 2.205439400950738
+  },
+  "hi": {
+   "bytes_per_token": 6.712408329318559,
+   "tokens_per_char": 0.3777707561835669,
+   "tokens_per_word": 1.9110508682642389
+  },
+  "sw": {
+   "bytes_per_token": 3.572064471999579,
+   "tokens_per_char": 0.2823901507910015,
+   "tokens_per_word": 1.8410872738075248
+  },
+  "tr": {
+   "bytes_per_token": 3.6339712397414483,
+   "tokens_per_char": 0.29865605858161687,
+   "tokens_per_word": 2.258083031987733
+  },
+  "tool": {
+   "bytes_per_token": 4.095929361301296,
+   "tokens_per_char": 0.24416583428926059,
+   "tokens_per_word": 1.7802978331219812
+  }
+ }
+}

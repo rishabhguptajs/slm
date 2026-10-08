@@ -1,0 +1,2 @@
+{"model": {"vocab_size": 16384, "d_model": 256, "n_layers": 12, "pattern": "A", "n_heads": 4, "mlp_hidden": 704},
+ "train": {}}

@@ -1,0 +1,32 @@
+== A_transformer_sweep_lr0.004 layers=AAAAAAAAAAAA params=13.83M (non-emb 9.64M) lr=0.004 steps=1500 tokens=12M
+step     50 loss 8.6539 gnorm 0.91 lr 1.33e-03 9,855 tok/s 0.7min
+step    100 loss 7.5414 gnorm 0.53 lr 2.65e-03 9,743 tok/s 1.4min
+step    150 loss 7.1305 gnorm 0.55 lr 3.97e-03 9,499 tok/s 2.1min
+step    200 loss 6.8735 gnorm 0.51 lr 3.99e-03 9,273 tok/s 2.8min
+step    250 loss 6.6348 gnorm 0.43 lr 3.95e-03 9,148 tok/s 3.6min
+step    300 loss 6.3797 gnorm 0.35 lr 3.89e-03 9,265 tok/s 4.3min
+step    350 loss 6.2170 gnorm 0.33 lr 3.81e-03 9,294 tok/s 5.1min
+step    400 loss 6.0743 gnorm 0.30 lr 3.71e-03 9,419 tok/s 5.8min
+step    450 loss 6.0042 gnorm 0.33 lr 3.58e-03 64 tok/s 113.1min
+step    500 loss 5.9086 gnorm 0.30 lr 3.44e-03 148 tok/s 159.2min
+step    550 loss 5.8456 gnorm 0.31 lr 3.28e-03 65 tok/s 263.4min
+step    600 loss 5.7927 gnorm 0.30 lr 3.10e-03 45 tok/s 414.0min
+step    650 loss 5.7015 gnorm 0.32 lr 2.92e-03 12,024 tok/s 414.6min
+step    700 loss 5.6804 gnorm 0.46 lr 2.72e-03 12,327 tok/s 415.2min
+step    750 loss 5.6391 gnorm 0.32 lr 2.52e-03 12,338 tok/s 415.7min
+step    800 loss 5.5527 gnorm 0.31 lr 2.31e-03 12,058 tok/s 416.3min
+step    850 loss 5.5309 gnorm 0.31 lr 2.10e-03 12,009 tok/s 416.8min
+step    900 loss 5.4663 gnorm 0.30 lr 1.89e-03 11,890 tok/s 417.4min
+step    950 loss 5.4472 gnorm 0.32 lr 1.69e-03 11,052 tok/s 418.0min
+step   1000 loss 5.4182 gnorm 0.33 lr 1.49e-03 10,363 tok/s 418.7min
+step   1050 loss 5.3297 gnorm 0.33 lr 1.30e-03 10,051 tok/s 419.4min
+step   1100 loss 5.2896 gnorm 0.32 lr 1.13e-03 10,187 tok/s 420.0min
+step   1150 loss 5.2884 gnorm 0.35 lr 9.68e-04 9,961 tok/s 420.7min
+step   1200 loss 5.1738 gnorm 0.34 lr 8.24e-04 10,120 tok/s 421.4min
+step   1250 loss 5.2105 gnorm 0.34 lr 6.98e-04 9,971 tok/s 422.1min
+step   1300 loss 5.2142 gnorm 0.35 lr 5.93e-04 9,990 tok/s 422.8min
+step   1350 loss 5.1638 gnorm 0.34 lr 5.10e-04 9,805 tok/s 423.5min
+step   1400 loss 5.1197 gnorm 0.39 lr 4.49e-04 9,682 tok/s 424.2min
+step   1450 loss 5.1162 gnorm 0.33 lr 4.13e-04 9,680 tok/s 424.9min
+step   1500 loss 5.0922 gnorm 0.36 lr 4.00e-04 9,756 tok/s 425.6min
+FINAL A_transformer_sweep_lr0.004: all_text bpb 2.1513 macro 2.2647 tool 1.5267 | 425.6 min, 481 tok/s, peak 5.85 GB

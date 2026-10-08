@@ -1,0 +1,22 @@
+=== tokenizer study Tue Sep 29 00:06:58 2026 sample=25MB/lang
+=== tokenizer study Tue Sep 29 00:07:49 2026 sample=25MB/lang
+corpus docs=79453 bytes=317MB
+trained bpe8k in 29s
+trained bpe16k in 35s
+trained bpe32k in 33s
+bytes {"vocab_size": 266, "en": 1.0, "de": 1.0, "fr": 1.0, "es": 1.0, "ru": 1.0, "zh": 1.0, "ja": 1.0, "ar": 1.0, "hi": 1.0, "sw": 1.0, "tr": 1.0, "tool": 1.0}
+bpe8k {"vocab_size": 8192, "en": 3.06, "de": 2.71, "fr": 2.85, "es": 2.89, "ru": 3.77, "zh": 2.47, "ja": 3.22, "ar": 3.67, "hi": 3.61, "sw": 2.78, "tr": 2.79, "tool": 3.41}
+bpe16k {"vocab_size": 16384, "en": 3.44, "de": 3.07, "fr": 3.17, "es": 3.24, "ru": 4.34, "zh": 2.86, "ja": 3.7, "ar": 4.19, "hi": 3.73, "sw": 3.17, "tr": 3.17, "tool": 3.78}
+bpe32k {"vocab_size": 32768, "en": 3.78, "de": 3.47, "fr": 3.51, "es": 3.65, "ru": 4.96, "zh": 3.26, "ja": 4.24, "ar": 4.74, "hi": 3.82, "sw": 3.56, "tr": 3.62, "tool": 4.06}
+=== tokenizer study Tue Sep 29 00:10:16 2026 sample=25MB/lang
+corpus docs=79453 bytes=317MB
+trained mbpe8k in 30s
+trained mbpe16k in 32s
+trained mbpe32k in 33s
+bytes {"vocab_size": 266, "en": 1.0, "de": 1.0, "fr": 1.0, "es": 1.0, "ru": 1.0, "zh": 1.0, "ja": 1.0, "ar": 1.0, "hi": 1.0, "sw": 1.0, "tr": 1.0, "tool": 1.0}
+bpe8k {"vocab_size": 8192, "en": 3.06, "de": 2.71, "fr": 2.85, "es": 2.89, "ru": 3.77, "zh": 2.47, "ja": 3.22, "ar": 3.67, "hi": 3.61, "sw": 2.78, "tr": 2.79, "tool": 3.41}
+mbpe8k {"vocab_size": 8192, "en": 3.07, "de": 2.71, "fr": 2.86, "es": 2.91, "ru": 3.75, "zh": 2.46, "ja": 3.21, "ar": 3.68, "hi": 5.15, "sw": 2.78, "tr": 2.8, "tool": 3.42}
+bpe16k {"vocab_size": 16384, "en": 3.44, "de": 3.07, "fr": 3.17, "es": 3.24, "ru": 4.34, "zh": 2.86, "ja": 3.7, "ar": 4.19, "hi": 3.73, "sw": 3.17, "tr": 3.17, "tool": 3.78}
+mbpe16k {"vocab_size": 16384, "en": 3.46, "de": 3.08, "fr": 3.18, "es": 3.25, "ru": 4.34, "zh": 2.85, "ja": 3.68, "ar": 4.2, "hi": 5.94, "sw": 3.17, "tr": 3.17, "tool": 3.8}
+bpe32k {"vocab_size": 32768, "en": 3.78, "de": 3.47, "fr": 3.51, "es": 3.65, "ru": 4.96, "zh": 3.26, "ja": 4.24, "ar": 4.74, "hi": 3.82, "sw": 3.56, "tr": 3.62, "tool": 4.06}
+mbpe32k {"vocab_size": 32768, "en": 3.8, "de": 3.48, "fr": 3.52, "es": 3.66, "ru": 4.96, "zh": 3.25, "ja": 4.22, "ar": 4.77, "hi": 6.71, "sw": 3.57, "tr": 3.63, "tool": 4.1}

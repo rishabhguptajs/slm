@@ -1,0 +1,15 @@
+.venv/
+/data/
+__pycache__/
+*.safetensors
+*.npz
+.DS_Store
+archive/tok_*/
+archive/data_*/
+*.bin
+*.zst
+results/*.log
+
+# private notes, not pushed
+notes/
+results/energy/powermetrics.txt

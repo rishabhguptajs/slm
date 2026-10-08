@@ -1,0 +1,1 @@
+== DP_gdn_pma_long2k layers=DDDPDDDPDDDP params=13.82M (non-emb 9.62M) lr=0.002 steps=1500 tokens=12M

@@ -1,0 +1,53 @@
+{
+  "model": {
+    "vocab_size": 16384,
+    "d_model": 256,
+    "n_layers": 12,
+    "pattern": "D",
+    "n_heads": 4,
+    "mlp_hidden": 608,
+    "window": 128,
+    "n_slots": 64,
+    "chunk": 64,
+    "conv_k": 4,
+    "tie_embeddings": true,
+    "extra": {}
+  },
+  "train": {
+    "tokenizer": "mbpe16k",
+    "weights": {
+      "en": 0.35,
+      "de": 0.055,
+      "fr": 0.055,
+      "es": 0.055,
+      "ru": 0.055,
+      "zh": 0.055,
+      "ja": 0.055,
+      "ar": 0.055,
+      "hi": 0.055,
+      "sw": 0.055,
+      "tr": 0.055,
+      "tool": 0.1
+    },
+    "batch_size": 16,
+    "seq_len": 512,
+    "steps": 6000,
+    "lr": 0.002,
+    "warmup": 300,
+    "min_lr_frac": 0.1,
+    "weight_decay": 0.1,
+    "beta2": 0.95,
+    "grad_clip": 1.0,
+    "seed": 0,
+    "eval_every": 2000,
+    "eval_tokens": 32768,
+    "final_eval_tokens": 131072,
+    "log_every": 50,
+    "dtype": "float32",
+    "save": true
+  },
+  "params": 13807712,
+  "params_nonembedding": 9613408,
+  "host": "macOS-26.5.2-arm64-arm-64bit",
+  "mlx": "0.32.2"
+}

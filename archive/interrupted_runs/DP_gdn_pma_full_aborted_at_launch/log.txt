@@ -1,0 +1,1 @@
+== DP_gdn_pma_full layers=DDDPDDDPDDDP params=13.82M (non-emb 9.62M) lr=0.004 steps=6000 tokens=49M

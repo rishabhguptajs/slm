@@ -1,0 +1,7 @@
+== smoke_A layers=AAAAAAAAAAAA params=13.83M (non-emb 9.64M) lr=0.003 steps=30 tokens=0M
+== smoke_A layers=AAAAAAAAAAAA params=13.83M (non-emb 9.64M) lr=0.003 steps=30 tokens=0M
+step     10 loss 9.1642 gnorm 0.51 lr 2.83e-03 10,018 tok/s 0.1min
+step     20 loss 8.4671 gnorm 0.39 lr 1.40e-03 12,666 tok/s 0.2min
+  eval@20: all_text bpb 3.3553 macro 3.5205 en 3.2484 tool 2.5922
+step     30 loss 8.2469 gnorm 0.46 lr 3.11e-04 11,810 tok/s 0.4min
+FINAL smoke_A: all_text bpb 3.2961 macro 3.4595 tool 2.8609 | 0.4 min, 11,387 tok/s, peak 5.85 GB

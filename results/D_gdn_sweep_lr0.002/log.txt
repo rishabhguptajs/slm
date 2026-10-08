@@ -1,0 +1,32 @@
+== D_gdn_sweep_lr0.002 layers=DDDDDDDDDDDD params=13.81M (non-emb 9.61M) lr=0.002 steps=1500 tokens=12M
+step     50 loss 9.1476 gnorm 0.46 lr 6.67e-04 7,170 tok/s 1.0min
+step    100 loss 7.7259 gnorm 0.91 lr 1.33e-03 7,194 tok/s 1.9min
+step    150 loss 7.2138 gnorm 1.10 lr 1.99e-03 7,389 tok/s 2.8min
+step    200 loss 6.7856 gnorm 1.19 lr 1.99e-03 7,401 tok/s 3.7min
+step    250 loss 6.4913 gnorm 0.59 lr 1.98e-03 7,587 tok/s 4.6min
+step    300 loss 6.1926 gnorm 0.51 lr 1.95e-03 7,703 tok/s 5.5min
+step    350 loss 5.9529 gnorm 0.52 lr 1.91e-03 7,596 tok/s 6.4min
+step    400 loss 5.8182 gnorm 0.52 lr 1.85e-03 6,746 tok/s 7.4min
+step    450 loss 5.6746 gnorm 0.58 lr 1.79e-03 7,680 tok/s 8.3min
+step    500 loss 5.5745 gnorm 0.49 lr 1.72e-03 7,389 tok/s 9.3min
+step    550 loss 5.4834 gnorm 0.53 lr 1.64e-03 7,109 tok/s 10.2min
+step    600 loss 5.4125 gnorm 0.50 lr 1.55e-03 7,321 tok/s 11.1min
+step    650 loss 5.2936 gnorm 0.50 lr 1.46e-03 7,717 tok/s 12.0min
+step    700 loss 5.2697 gnorm 0.65 lr 1.36e-03 7,729 tok/s 12.9min
+step    750 loss 5.2064 gnorm 0.54 lr 1.26e-03 6,817 tok/s 13.9min
+step    800 loss 5.1118 gnorm 0.50 lr 1.15e-03 7,246 tok/s 14.9min
+step    850 loss 5.0755 gnorm 0.52 lr 1.05e-03 7,070 tok/s 15.8min
+step    900 loss 4.9886 gnorm 0.50 lr 9.46e-04 7,156 tok/s 16.8min
+step    950 loss 4.9678 gnorm 0.52 lr 8.44e-04 6,756 tok/s 17.8min
+step   1000 loss 4.9385 gnorm 0.56 lr 7.45e-04 6,697 tok/s 18.8min
+step   1050 loss 4.8379 gnorm 0.55 lr 6.52e-04 7,508 tok/s 19.7min
+step   1100 loss 4.8102 gnorm 0.51 lr 5.64e-04 7,613 tok/s 20.6min
+step   1150 loss 4.8051 gnorm 0.55 lr 4.84e-04 7,539 tok/s 21.5min
+step   1200 loss 4.6807 gnorm 0.53 lr 4.12e-04 7,566 tok/s 22.4min
+step   1250 loss 4.7288 gnorm 0.54 lr 3.49e-04 7,469 tok/s 23.3min
+step   1300 loss 4.7370 gnorm 0.54 lr 2.97e-04 7,313 tok/s 24.3min
+step   1350 loss 4.6799 gnorm 0.55 lr 2.55e-04 6,973 tok/s 25.3min
+step   1400 loss 4.6428 gnorm 0.60 lr 2.25e-04 7,159 tok/s 26.2min
+step   1450 loss 4.6485 gnorm 0.52 lr 2.06e-04 7,322 tok/s 27.1min
+step   1500 loss 4.6254 gnorm 0.57 lr 2.00e-04 7,556 tok/s 28.0min
+FINAL D_gdn_sweep_lr0.002: all_text bpb 2.0007 macro 2.1014 tool 1.2518 | 28.0 min, 7,304 tok/s, peak 8.03 GB

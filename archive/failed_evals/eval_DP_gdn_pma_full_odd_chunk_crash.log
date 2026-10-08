@@ -1,0 +1,32 @@
+== eval DP_gdn_pma_full
+Traceback (most recent call last):
+  File "/Users/rishabh/startups/slm/scripts/eval_model.py", line 57, in <module>
+    main()
+  File "/Users/rishabh/startups/slm/scripts/eval_model.py", line 45, in main
+    res["needle"] = run_needle(model, tok, lengths=lengths, trials=4 if a.quick else 16)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/startups/slm/src/slm/eval/needle.py", line 45, in run_needle
+    lp_t = continuation_logprob(model, p_true, tgt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/startups/slm/src/slm/eval/generate.py", line 42, in continuation_logprob
+    logits, state = model(x[:, s:e], state)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/startups/slm/src/slm/models/model.py", line 138, in __call__
+    h, states = self.backbone(self.embed(tokens), states)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/startups/slm/src/slm/models/model.py", line 109, in __call__
+    x, st = b(x, None if states is None else states[i])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/startups/slm/src/slm/models/model.py", line 94, in __call__
+    y, st = self.mixer(self.n1(x), state)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/startups/slm/src/slm/models/recurrent.py", line 181, in __call__
+    o, S = gdn_chunked(q, k, v, log_a, beta, S0, self.chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/startups/slm/src/slm/models/recurrent.py", line 102, in gdn_chunked
+    Minv = unit_lower_inverse(mx.eye(C, dtype=A.dtype) + A)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/startups/slm/src/slm/models/recurrent.py", line 53, in unit_lower_inverse
+    both = mx.stack([X[..., :h, :h], X[..., h:, h:]], axis=0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: [stack] All arrays must have the same shape

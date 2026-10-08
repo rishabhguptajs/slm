@@ -1,0 +1,32 @@
+== A_transformer_long2k layers=AAAAAAAAAAAA params=13.83M (non-emb 9.64M) lr=0.001 steps=1500 tokens=12M
+step     50 loss 4.2188 gnorm 1.10 lr 4.95e-04 5,703 tok/s 1.2min
+step    100 loss 3.9590 gnorm 0.99 lr 9.90e-04 5,752 tok/s 2.4min
+step    150 loss 3.9573 gnorm 1.01 lr 9.97e-04 5,785 tok/s 3.6min
+step    200 loss 3.9710 gnorm 1.01 lr 9.89e-04 5,824 tok/s 4.7min
+step    250 loss 3.9440 gnorm 1.11 lr 9.75e-04 5,838 tok/s 5.9min
+step    300 loss 3.8975 gnorm 0.84 lr 9.56e-04 5,809 tok/s 7.1min
+step    350 loss 3.9786 gnorm 1.01 lr 9.32e-04 5,804 tok/s 8.3min
+step    400 loss 3.9502 gnorm 1.21 lr 9.02e-04 5,803 tok/s 9.4min
+step    450 loss 3.9266 gnorm 1.17 lr 8.69e-04 5,843 tok/s 10.6min
+step    500 loss 3.9440 gnorm 0.82 lr 8.31e-04 5,864 tok/s 11.8min
+step    550 loss 3.9932 gnorm 1.04 lr 7.90e-04 5,836 tok/s 12.9min
+step    600 loss 3.8710 gnorm 0.95 lr 7.46e-04 5,834 tok/s 14.1min
+step    650 loss 3.9568 gnorm 1.19 lr 7.00e-04 5,863 tok/s 15.3min
+step    700 loss 3.9672 gnorm 0.77 lr 6.51e-04 5,866 tok/s 16.4min
+step    750 loss 3.8254 gnorm 0.78 lr 6.01e-04 5,835 tok/s 17.6min
+step    800 loss 3.7961 gnorm 0.80 lr 5.51e-04 5,818 tok/s 18.8min
+step    850 loss 3.8269 gnorm 0.76 lr 5.01e-04 5,850 tok/s 19.9min
+step    900 loss 3.8949 gnorm 0.85 lr 4.51e-04 5,856 tok/s 21.1min
+step    950 loss 3.8568 gnorm 1.07 lr 4.02e-04 5,788 tok/s 22.3min
+step   1000 loss 3.8173 gnorm 0.94 lr 3.56e-04 5,849 tok/s 23.5min
+step   1050 loss 3.7718 gnorm 0.80 lr 3.11e-04 5,850 tok/s 24.6min
+step   1100 loss 3.7538 gnorm 1.01 lr 2.70e-04 5,817 tok/s 25.8min
+step   1150 loss 3.7769 gnorm 0.88 lr 2.33e-04 5,845 tok/s 27.0min
+step   1200 loss 3.7158 gnorm 0.80 lr 1.99e-04 5,804 tok/s 28.1min
+step   1250 loss 3.7439 gnorm 0.86 lr 1.70e-04 5,821 tok/s 29.3min
+step   1300 loss 3.6570 gnorm 0.74 lr 1.45e-04 5,824 tok/s 30.5min
+step   1350 loss 3.7127 gnorm 0.75 lr 1.26e-04 5,845 tok/s 31.7min
+step   1400 loss 3.6667 gnorm 0.68 lr 1.12e-04 5,842 tok/s 32.8min
+step   1450 loss 3.6918 gnorm 1.13 lr 1.03e-04 5,843 tok/s 34.0min
+step   1500 loss 3.7160 gnorm 0.90 lr 1.00e-04 5,850 tok/s 35.2min
+FINAL A_transformer_long2k: all_text bpb 1.6188 macro 1.7033 tool 0.8078 | 35.2 min, 5,825 tok/s, peak 8.59 GB

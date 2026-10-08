@@ -1,0 +1,37 @@
+[
+  {
+    "run": "idle",
+    "phase": "idle",
+    "start": 1791299709.092672,
+    "end": 1791299739.093023,
+    "tokens": 0
+  },
+  {
+    "run": "A_transformer_full",
+    "phase": "decode",
+    "start": 1791299739.1742022,
+    "end": 1791299769.219788,
+    "tokens": 5393
+  },
+  {
+    "run": "A_transformer_full",
+    "phase": "prefill",
+    "start": 1791299769.253,
+    "end": 1791299799.2885098,
+    "tokens": 523264
+  },
+  {
+    "run": "DP_gdn_pma_full",
+    "phase": "decode",
+    "start": 1791299804.443048,
+    "end": 1791299834.4435031,
+    "tokens": 8680
+  },
+  {
+    "run": "DP_gdn_pma_full",
+    "phase": "prefill",
+    "start": 1791299834.4435031,
+    "end": 1791299864.4489112,
+    "tokens": 751616
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "needle": {
+    "0": {
+      "exact": 0.0,
+      "gain_bits": 6.292852719311144,
+      "gain_bits_se": 0.6680863090116503
+    },
+    "128": {
+      "exact": 0.0,
+      "gain_bits": 4.143426748496214,
+      "gain_bits_se": 0.3725884822441293
+    },
+    "512": {
+      "exact": 0.0,
+      "gain_bits": 2.693320631216271,
+      "gain_bits_se": 0.3653025855747112
+    },
+    "2048": {
+      "exact": 0.0,
+      "gain_bits": 0.13492038960187336,
+      "gain_bits_se": 0.07520210866231705
+    },
+    "8192": {
+      "exact": 0.0,
+      "gain_bits": 0.00426001026187177,
+      "gain_bits_se": 0.0041243820103052985
+    }
+  },
+  "toolcall": {
+    "json_valid": 0.89,
+    "name_acc": 0.7933333333333333,
+    "args_exact": 0.44,
+    "exact": 0.44,
+    "call_bpb": 0.1296291810913436,
+    "n": 300
+  },
+  "efficiency": {
+    "params": 13817876,
+    "weight_bytes": 55271504,
+    "by_length": {
+      "512": {
+        "decode_tok_s": 325.3747327285686,
+        "decode_ms": 3.073379397392273,
+        "state_bytes": 1072128,
+        "peak_mem_bytes": 166292384,
+        "active_mem_bytes": 72055972,
+        "proxy_macs_per_token": 14344192,
+        "proxy_flops_per_token": 28688384,
+        "proxy_bytes_moved_per_token": 57022544
+      },
+      "2048": {
+        "decode_tok_s": 325.61075004306133,
+        "decode_ms": 3.0711516737937927,
+        "state_bytes": 1072128,
+        "peak_mem_bytes": 175551384,
+        "active_mem_bytes": 72064164,
+        "proxy_macs_per_token": 14344192,
+        "proxy_flops_per_token": 28688384,
+        "proxy_bytes_moved_per_token": 57022544
+      },
+      "8192": {
+        "decode_tok_s": 325.4544193636776,
+        "decode_ms": 3.0726268887519836,
+        "state_bytes": 1072128,
+        "peak_mem_bytes": 175591320,
+        "active_mem_bytes": 72223908,
+        "proxy_macs_per_token": 14344192,
+        "proxy_flops_per_token": 28688384,
+        "proxy_bytes_moved_per_token": 57022544
+      },
+      "32768": {
+        "decode_tok_s": 326.4939088467676,
+        "decode_ms": 3.0628442764282227,
+        "state_bytes": 1072128,
+        "peak_mem_bytes": 175611800,
+        "active_mem_bytes": 72240292,
+        "proxy_macs_per_token": 14344192,
+        "proxy_flops_per_token": 28688384,
+        "proxy_bytes_moved_per_token": 57022544
+      }
+    },
+    "prefill_tok_s": 25443.214672464248
+  }
+}

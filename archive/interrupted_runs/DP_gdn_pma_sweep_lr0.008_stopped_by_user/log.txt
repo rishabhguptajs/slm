@@ -1,0 +1,4 @@
+== DP_gdn_pma_sweep_lr0.008 layers=DDDPDDDPDDDP params=13.82M (non-emb 9.62M) lr=0.008 steps=1500 tokens=12M
+step     50 loss 8.6657 gnorm 3.36 lr 2.67e-03 6,164 tok/s 1.1min
+step    100 loss 7.7763 gnorm 0.46 lr 5.31e-03 6,596 tok/s 2.1min
+step    150 loss 7.2830 gnorm 0.40 lr 7.95e-03 6,682 tok/s 3.2min
